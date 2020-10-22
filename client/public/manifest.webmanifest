@@ -1,0 +1,26 @@
+{
+  "name": "In-Touch Chat Application",
+  "short_name": "In-Touch",
+  "description": "A real-time chat application built with react and socket.io",
+  "icons": [
+    {
+      "src": "./src/icons/in-touch-icon.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "./src/icons/in-touch-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+        "src": "./src/icons/in-touch-icon.png",
+        "sizes": "256x256",
+        "type": "image/png"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#808080",
+  "display": "standalone",
+  "theme_color": "#000"
+}
