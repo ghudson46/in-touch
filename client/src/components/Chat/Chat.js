@@ -6,6 +6,7 @@ import TextContainer from '../TextContainer/TextContainer';
 import Messages from '../Messages/Messages';
 import InfoBar from '../InfoBar/InfoBar';
 import Input from '../Input/Input';
+import VideoPlayer from '../VideoPlayer';
 
 import './Chat.css';
 
@@ -61,6 +62,8 @@ const Chat = ({ location }) => {
           <Input message={message} setMessage={setMessage} sendMessage={sendMessage} />
       </div>
       <TextContainer users={users}/>
+
+      <VideoPlayer />
     </div>
   );
 }
